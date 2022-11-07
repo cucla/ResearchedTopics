@@ -53,13 +53,11 @@ class LruCache:
         self.__cache.clear()
         
         
-        
 class CacheInfo:
     hits: int
     misses: int
     maxsize: int
     currsize: int
-    
     
         
 class _LruCacheFunctionWrapper:
